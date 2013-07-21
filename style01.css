@@ -1,0 +1,167 @@
+#apinfo p {
+	margin:10px 0 0;
+	padding: 0px 12px;
+	text-align: center;
+}
+
+.sitem {
+    float: left;
+    margin: 5px 0 5px 10px;
+    min-width: 90px;
+    max-width: 130px;
+}
+
+.sitemm {
+    float: left;
+    margin: 0 0 10px 10px;
+    min-width: 80px;
+    max-width: 130px;
+}
+
+#rpappbank {height:50px; margin:-5px 0;}
+#topa {height:50px; margin:10px 0 -5px;}
+
+.content img {
+	width:auto;
+	max-width:100% !important;
+	max-height:100% !important;
+	margin-right:10px !important;
+	margin-bottom:6px;
+	float:left !important;
+}
+
+.cateinfo {
+    font-size: 17px;
+    letter-spacing: -1px;
+    margin: 25px 9px 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    color: #475D79;
+}
+
+table.cate {
+    width: 100%;
+}
+
+#footercate h3 {
+	margin-bottom:10px
+}
+
+.more-link {
+	font-size:18px;
+}
+
+.rating_container {display:none; padding:10px 0px 0px 0px; border-top:1px solid #ddd; border-bottom:1px solid #ddd; /*width:420px; height:134px; padding-top:30px; background:url(/style/rating/bg.gif) no-repeat center top; margin:0px auto;*/ margin-bottom:20px;  clear:both;}
+
+.rating_container div.rating_list_left { /*width:200px; height:30px; float:left; text-align:right;*/ color:#666; font-size:14px; }
+.rating_container div.rating_list_left img {float:none !important; margin:0px; padding:0px;}
+
+.rating_container div.rating_list_right { /* width:180px; height:30px; float:left; text-align:right; */ color:#666; font-size:14px; }
+.rating_container div.rating_list_right img {float:none !important; margin:0px; padding:0px;}
+
+.rating_container div.rating_overall { text-align:center; padding:5px 0px;  background:#f5f5f5}
+.rating_container div.rating_overall span { font-size:12px; font-weight:bold; color:#000; line-height:150%;}
+.rating_container div.rating_overall img {float:none !important; margin:0px; padding:0px;}
+
+.rating_container2 {display:none; background:url(/style/rating/bg4.gif) repeat-y center top; padding:7px 0px; margin-bottom:15px; font-size:12px; font-weight:bold; color:#fff; clear:both; text-align:center;}
+.rating_container2 img { margin-bottom:-2px; float:none !important; }
+
+.rating_overall2 {display:none; text-align:center;}
+.rating_overall2 span { font-size:12px; font-weight:bold; color:#fff; line-height:200%;}
+
+.clr { clear:both; overflow:hidden; height:0px; font-size:1px;}
+
+#sharetoweibo { padding-top:10px; border-top:1px solid #ccc; height:30px; overflow:hidden;}
+
+.ewt_newrat {text-align:center; padding:10px 0px; clear:both;}
+.ewt_newrat img {float:none !important;}
+
+.art_icon_iphone, .art_icon_ipad, .art_icon_iphone_ipad { width:680px; height:53px; padding-bottom:5px; clear:both;}
+
+
+
+.appstyle_container {padding:10px; border:1px solid #ccc; background:#fff; clear:both;}
+
+.appstyle_container2 { }
+
+.appstyle_logo { width:72px; float:left; text-align:center; position:relative;}
+
+.appstyle-logoimg {width:72px; height:72px; position:absolute; left:0px; top:0px; z-index:1;}
+
+.appstyle_logoimg img { width:72px; height:72px; border:0px;}
+
+.appstyle-logomask {width:72px; height:72px; position:absolute; left:0px; top:0px; z-index:3;}
+
+.appstyle_logomask img { width:72px; height:72px; border:0px;}
+
+.appstyle_button { width:150px; margin-left:82px; float:right;}
+
+.appstyle_button img { margin-top:10px; border:0px;}
+
+.appstyle_newprice { text-align:center; font-size:14px; font-weight:bold; color:#C00;}
+
+.appstyle_des { font-size:12px; color:#333; clear:both;}
+
+.appstyle_cat { font-size:12px; color:#666;}
+
+.appstyle_name { font-size:12px; color:#C00; font-weight:bold; line-height:180%;}
+
+.appstyle_saller { font-size:12px; color:#333; font-weight:bold;}
+
+.appstyle_time { font-size:12px; color:blue; font-weight:bold;}
+
+.appstyle_size { font-size:12px; color:#333; font-weight:bold;}
+
+.appstyle_rate { font-size:12px; color:#333; font-weight:bold;}
+
+.appstyle_rate img { margin-bottom:-2px; border:0px; float:right;}
+
+.post-page-nav { text-align:center; font-size:18px; font-weight:bold; padding:10px 0px 30px 0px; color:red;}
+.post-page-nav a { font-weight:bold; font-size:14px; color:#000; text-decoration:underline;} 
+.post-page-nav a:hover { color:red; text-decoration:none;}
+
+#ewtlogo { text-align:center; padding-top:10px;}
+
+#catnav { 
+	padding:0; 
+	margin:15px 0px 0px 0px;
+	height:31px;
+	background:#558ab6 url(http://www.ewtang.com/wp-content/uploads/2011/11/topnav_bg.gif) repeat-x center top;
+	border-bottom:1px solid #3b6289;
+	border-top:1px solid #3b6289;
+	border-left:1px solid #3b6289;
+	border-right:1px solid #3b6289;
+	font-size:8pt;
+	}
+
+#catnav ul li {float:left}
+#catnav ul li.f2 { width:40px}
+#catnav ul li.f4 { width:65px}
+#catnav ul li a  {
+	display:block; 
+	z-index:100; 
+	padding:5px 5px; 
+	line-height:20px; 
+	text-decoration:none;
+	border-right:1px solid #618fb2; 
+	color:#d2e2f3;
+	font-size:12px;
+	font-weight:bold;
+	}
+
+#catnav ul li a:hover {
+	color:#fff;
+	background:#558ab6 url(http://www.ewtang.com/wp-content/uploads/2011/11/topnav_bg_on.gif) repeat-x center top;
+	}
+
+
+.redtitle {border-left: #d32028 10px solid; padding-bottom: 10px; line-height: 24px; widows: 2; text-transform: none; background-color: #ffffff; text-indent: 0px; padding-left: 15px; padding-right: 10px; white-space: normal; orphans: 2; margin-bottom: 10px; letter-spacing: normal; border-top: #d32028 1px solid; word-spacing: 0px; padding-top: 10px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-align:left; font-weight:bold;}
+
+.app-wa-best-title {height:52px; position:relative; clear:both}
+.app-wa-best-title div.imgshow { width:608px; height:52px; position:absolute; z-index:1; left:-11px; top:0px;}
+.app-wa-best-title div.appname {440px; height:41px; padding-top:7px; position:absolute; z-index:2; left:135px; top:0px; color:#fff; font-weight:bold;}
+.app-wa-best-des { border-right:1px solid #ccc; border-bottom:1px solid #ccc; border-left:1px solid #ccc; padding:10px; clear:both}
+
+.app-wa-good-title { height:57px; border:1px solid #ccc; position:relative; margin-top:20px; clear:both}
+.app-wa-good-title div.imgshow { width:121px; height:47px; position:absolute; z-index:1; left:-11px; top:6px;}
+.app-wa-good-title div.appname {455px; height:41px; padding-top:5px; position:absolute; z-index:2; left:120px; top:0px; color:#000; font-weight:bold;}
+.app-wa-good-des { border-right:1px solid #ccc; border-bottom:1px solid #ccc; border-left:1px solid #ccc; padding:10px; clear:both}

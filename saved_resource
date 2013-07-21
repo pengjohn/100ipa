@@ -1,0 +1,51 @@
+body { 
+	font: 13px "Helvetica", Helvetica, Geneva, Arial, sans-serif;
+	color: #333333;
+	background: #CCCCCC url( http://www.ewtang.com/wp-content/uploads/2012/01/iPhone-v-bg2.jpg ) repeat 0 0;
+}
+
+#header { 
+	background-image: url(http://www.ewtang.com/wp-content/plugins/wptouch-pro/themes/classic/iphone/images/glossy.png); 
+	font: 19px "Helvetica-Bold", Helvetica, Geneva, Arial, sans-serif;
+}
+
+a { color: #006bb3; }
+
+.post h2, .post h2 a { color: #333333; font: 15px "Helvetica-Bold", Helvetica, Geneva, Arial, sans-serif; }
+
+#content .content, #content .page .content, #content .post.single { font: 13px "Helvetica", Helvetica, Geneva, Arial, sans-serif; }
+
+#respond h3,
+p.nocomments,
+#respond p,
+form#commentform p,
+#loading p,
+form#commentform label,
+.archive-text,
+.linkcat h2,
+h2.wptouch-archives,
+h2.iphone-list,
+ul.iphone-list li span {
+	color: #475d79;
+	text-shadow: #fff 0 1px 0;
+}
+
+#respond h3,
+p.nocomments,
+#respond p,
+form#commentform p,
+#loading p,
+form#commentform label,
+.archive-text,
+.linkcat h2,
+h2.wptouch-archives,
+h2.iphone-list,
+.load-more-link,
+ul.iphone-list li span,
+#switch, 
+.footer {
+	text-shadow: #fff 0 1px 0;
+}
+
+
+#switch, .footer { color: #666666; }
