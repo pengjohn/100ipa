@@ -1,5 +1,24 @@
 <?php include 'conn_db_open.php'; ?>
 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<Script Language ="JavaScript">
+function new_success()
+{
+	alert("添加成功！");
+	self.location='defalt.php';
+}
+
+function edit_success()
+{
+	alert("修改成功！");
+	self.location='defalt.php';
+}
+
+</Script>
+</Head>
+
 <?php
 $id = $_POST['id'];
 $title = $_POST['title'];
@@ -37,6 +56,9 @@ if($action == "new")
     mysql_query($sql, $con);
     echo "<br>sql error: ".mysql_error();
     echo "<br>New success!<br>";
+
+		echo "<body onload=new_success()>";
+		echo "</body>";
 }
 else if($action == "edit")
 {
@@ -45,7 +67,12 @@ else if($action == "edit")
     mysql_query($sql, $con);
     echo "<br>sql error: ".mysql_error();
     echo "<br>Edit success!<br>";
+
+		echo "<body onload=edit_success()>";
+		echo "</body>";
 }
 ?>
+
+</Html>
 <?php include 'conn_db_close.php'; ?>
 
