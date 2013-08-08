@@ -104,7 +104,7 @@ function picture_url($url_file, $id){
 
 //保存远程文件到本地镜像
 function save_file($url_file, $id){
-//echo "./pic/".$id."_".basename($url_file);
-//file_put_pengzhixiong_contents("./pic/".$id."_".basename($url_file), file_get_contents($url_file));
+$url_file_fixed=str_replace("jpeg","jpg",$url_file);
+//file_put_pengzhixiong_contents("./pic/".$id."_".basename($url_file_fixed), file_get_contents($url_file));
 }
 ?>
